@@ -1,0 +1,19 @@
+algoritmo "semnome"
+var
+N,C,S,SI,I:INTEIRO
+inicio
+SI <- 0
+PARA C <- 1 ATE 6 FACA
+ESCREVAL("ESCREVA UM NUMERO:")
+LEIA (N)
+     SE (N>=0) E (N<=20)ENTAO
+     S <- S+1
+       SE (N%2=1)ENTAO
+       SI <- SI+N
+       FIMSE
+     FIMSE
+
+FIMPARA
+ESCREVAL("A SOMA DOS VALORES IMPARES SAO:" ,SI)
+ESCREVAL(S," VALORES ESTAO ENTRE 0 E 20")
+fimalgoritmo

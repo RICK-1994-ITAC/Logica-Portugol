@@ -1,0 +1,17 @@
+algoritmo "semnome"
+var
+C,SOMA,R,N:INTEIRO
+RESP:CARACTERE
+
+inicio
+R<-1
+SOMA<-0
+ESCREVAL("DIGITE UM NUMERO:")
+LEIA (N)
+PARA C <- R ATE (N)FACA
+ESCREVAL("DESEJA CONTINUAR?[S/N]")
+LEIA(RESP)
+SOMA <- SOMA+N
+FIMPARA
+
+fimalgoritmo
